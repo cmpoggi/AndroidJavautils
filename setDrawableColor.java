@@ -1,4 +1,4 @@
-Drawable changeDrawableColor(int resId, int newColor) {
+Drawable setDrawableColor(int resId, int newColor) {
         //para cambiar el color del icono en el boton
         Drawable oldIcon = ResourcesCompat.getDrawable(context.getResources(),
                 resId, context.getTheme());
